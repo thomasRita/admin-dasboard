@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Admin Dashboard</title>
+
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="css/admin-dashboard.css" rel="stylesheet">
+  <script src="https://use.fontawesome.com/48fa005db2.js"></script>
+
+</head>
+
+<body>
+  <div id="page-content-wrapper-2">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+      <button class="btn btn-default" id="menu-toggle">FundMy<span class="red-text">Laptop</span></button>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 mr-md-5">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Dashboard <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Track <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About<span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link icon-info">
+              <i class="fa fa-bell" aria-hidden="true"></i>
+              <span class="label label-primary">3</span>
+            </a>
+          </li>
+          <li class="nav-item active">
+            <img src="./img/Ellipse 8.png" alt="image one" class="img-fluid abt-img">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+
+            </a>
+            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Account</a>
+              <a class="dropdown-item" href="#">Profile</a>
+              <a class="dropdown-item" href="#">Logout</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+  <div class="d-flex" id="wrapper">
+
+    <!-- Sidebar -->
+    <div class="bg-light border-right" id="sidebar-wrapper">
+      <div class="sidebar-heading mt-4 mb-5  mx-auto text-center">
+        <p>Campaign</p>
+      </div>
+      <div class="list-group list-group-flush">
+        <a href="#" class="list-group-item list-group-item-action bg-light">Fundings</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Payments</a>
+        <a href="#" class="list-group-item list-group-item-action bg-light">Settings</a>
+      </div>
+    </div>
+    <!-- /#sidebar-wrapper -->
+
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 col-sm-12 left">
+            <div class="container  mx-auto">
+              <div class="">
+                <h1>Hello James</h1>
+                <p>Have a nice day at work</p>
+                <p>20 Jan 2020</p>
+              </div>
+              <div class="mb-4">
+                <span><a href="#" class="btn btn-default active-campaign">Loan Campaign</a></span>
+                <span><a href="#" class="btn btn-default">Borrow Campaign</a></span>
+                <span><a href="#" class="btn btn-default">Repair Campaign</a></span>
+              </div>
+
+              <div class="container mx-auto details text-center py-5">
+                <form class="row mx-auto col-md-12 form-inline filter-form">
+                  <label for="filters" class="m-3">Filters</label>
+                  <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle all mx-2 mr-5" type="button" data-toggle="dropdown">
+                      All
+                      <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <input class="form-control px-2" id="myInput" type="text" placeholder="Search..">
+                      <li><a href="#">Loan 1</a></li>
+                      <li><a href="#">Loan 2</a></li>
+                      <li><a href="#">Loan 3</a></li>
+                  </div>
+                  <input type="number" class="form-control m-2 amount" id="inlineFormAmount" placeholder="Amount">
+
+                  <button type="submit" class="btn btn-default search m-2 px-2">Search</button>
+                </form>
+
+                <h3 class="my-4">Today</h3>
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+
+                <div class="row mx-auto col-md-12 info justify-content-around  pt-3 pb-2 mb-4">
+                  <span>
+                    <div class="circle">
+                      <span class="lone-circle py-2 px-3"></span>
+                    </div>
+                  </span>
+                  <span>
+                    <p>I need laptop to complete my final...</p>
+                  </span>
+                  <span>
+                    <p class="amount-text">100,000</p>
+                  </span>
+                  <span>
+                    <div class="mini ml-md-4">
+                      <span class="mini-circle"></span>
+                      <span class="mini-circle">
+                        <span class="circle-number">2+</span>
+                      </span>
+                    </div>
+                  </span>
+                </div>
+                <a class="see-more btn btn-default" href="#">See more recommenders</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 colo-sm-12">
+            <div class="container details-2 text-center py-5 my-3 ml-2">
+              <div class="talent">
+                <div class="talent-circle">
+                  <span class="colored-circle mb-5"></span>
+                  <p class="ml-3 mt-2">Talent</p>
+                </div>
+                <span class="container text-right">
+                  <p class="right-text">₦100,000</p>
+                </span>
+              </div>
+
+              <div>
+                <p class="text-left">I need laptop to complete my final projectI need laptop to complete my final projectI need laptop to
+                  complete my final project I need laptop to complete my final projectI need laptop to complete my final
+                  project</p>
+              </div>
+
+              <div class="d-flex recommenders">
+                <span>
+                  <p class="recommend-text">12:00pm</p>
+                </span>
+
+                
+                  <span class="container text-right recommend-text">Recommended by</span>
+                   <spa class="d-flex">
+                    <div class="mini-2 mr-3">
+                        <span class="mini-circle-2"></span>
+                        <span class="mini-circle-2">
+                        <span class="circle-number-2">2+</span>
+                      </span>
+                    </div>
+                      
+                        <span class="dropdown text-right">
+                          <button class="btn btn-light dropdown-toggle" type="button"
+                            data-toggle="dropdown">
+                            <span class="caret"></span></button>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Recommender 1</a></li>
+                            <li><a href="#">Recommender 1</a></li>
+                            <li><a href="#">Recommender 1</a></li>
+                          </span>
+                   </spa>
+            </div>
+
+            <div class="row col-md-12 info-2 pt-3 pb-2 mb-4">
+              <span>
+                <div class="circle-2 grey">
+                  <span class="lone-circle py-2 px-3"></span>
+                   <span class="circle-plus">+</span>
+                </div>
+              </span>
+              <span>
+                <a href="#" class="btn btn-default confirm">Confirm Funding</a>
+              </span>
+              <span>
+                 <a href="#" class="btn btn-default amount-text">Reject Funding</a>
+              </span>
+              <span>
+                <div class="circle-2 colored">
+                  <span class="py-2 px-3"></span>
+                  <span class="circle-plus">+</span>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /#page-content-wrapper -->
+
+  </div>
+  <!-- /#wrapper -->
+
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    $("#menu-toggle").click(function (e) {
+      e.preventDefault();
+      $("#wrapper").toggleClass("toggled");
+    });
+  </script>
+
+</body>
+
+</html>
